@@ -1,0 +1,106 @@
+[
+  {
+    "id": "2e107d56-65ec-4f14-aec5-f92a050fa2b0",
+    "name": "김길한",
+    "phone": "01099121935",
+    "registered_date": "2025-07-01",
+    "lessons": [
+      {
+        "subject": "거문고",
+        "remaining_sessions": 0,
+        "payment_history": [],
+        "attendance_history": []
+      },
+      {
+        "subject": "가야금",
+        "remaining_sessions": 0,
+        "payment_history": [],
+        "attendance_history": []
+      }
+    ],
+    "memo": ""
+  },
+  {
+    "id": "a6b22589-5c68-42f3-b57f-b55d0a3cf2ad",
+    "name": "성정인",
+    "phone": "01066150856",
+    "registered_date": "2025-07-01",
+    "lessons": [
+      {
+        "subject": "해금",
+        "remaining_sessions": 0,
+        "payment_history": [],
+        "attendance_history": []
+      }
+    ],
+    "memo": "웃기다"
+  },
+  {
+    "id": "fe9bda3b-3d9c-45da-b088-8a8416b7c39f",
+    "name": "유선진",
+    "phone": "01066150856",
+    "registered_date": "2025-07-01",
+    "lessons": [
+      {
+        "subject": "해금",
+        "remaining_sessions": 0,
+        "payment_history": [],
+        "attendance_history": []
+      }
+    ],
+    "memo": ""
+  },
+  {
+    "id": "ab2f8432-5aff-4e16-9e60-2fc231adb5ad",
+    "name": "김민지",
+    "phone": "10230913423",
+    "registered_date": "2025-07-05",
+    "lessons": [
+      {
+        "subject": "단소",
+        "remaining_sessions": 12,
+        "payment_history": [
+          {
+            "id": "74af0432-8142-454e-b296-24980e8280e5",
+            "date": "2025-07-01",
+            "amount": 600000,
+            "sessions_added": 13,
+            "method": "현금"
+          }
+        ],
+        "attendance_history": [
+          {
+            "id": "2234607b-e1d1-4e87-9a1f-76182699f068",
+            "date": "2025-07-01",
+            "status": "출석"
+          }
+        ]
+      },
+      {
+        "subject": "가야금",
+        "remaining_sessions": 11,
+        "payment_history": [
+          {
+            "id": "dcd3ae95-3a21-49e0-90d4-46bf50df7c39",
+            "date": "2025-07-01",
+            "amount": 600000,
+            "sessions_added": 13
+          }
+        ],
+        "attendance_history": [
+          {
+            "id": "59251eac-9708-436c-ba24-58077ca02112",
+            "date": "2025-07-01",
+            "status": "출석"
+          },
+          {
+            "id": "95bad105-8fae-44b7-95b3-507122f39c5d",
+            "date": "2025-07-03",
+            "status": "출석"
+          }
+        ]
+      }
+    ],
+    "memo": "잘생김"
+  }
+]

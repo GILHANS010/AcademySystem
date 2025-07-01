@@ -1,0 +1,114 @@
+body, .main, .block-container {
+    background-color: #F8F5EE !important;
+    color: #5a4632 !important;
+    font-family: 'Noto Sans KR', 'Pretendard', sans-serif !important;
+}
+
+/* 사이드바/헤더 */
+header, .sidebar-content {
+    background-color: #F2EFE7 !important;
+}
+
+/* 폼/컨테이너/버튼 */
+.stButton>button, .stTextInput>div>input, .stTextArea>div>textarea, .stSelectbox>div>div {
+    background-color: #FCFAF5 !important;
+    color: #5a4632 !important;
+    border: 1px solid #DBCBB6 !important;
+    border-radius: 8px !important;
+    font-size: 1rem !important;
+}
+.stButton>button:hover {
+    background-color: #F2EFE7 !important;
+    border-color: #5a4632 !important;
+}
+
+/* 테이블 */
+.stDataFrame, .stTable {
+    background-color: #FCFAF5 !important;
+    color: #5a4632 !important;
+    border-radius: 8px !important;
+}
+
+/* 테이블 행 번갈아 색 */
+tr:nth-child(even) {
+    background-color: #F8F5EE !important;
+}
+tr:nth-child(odd) {
+    background-color: #FCFAF5 !important;
+}
+
+/* 남은 회차 강조 */
+.session-low {
+    background-color: #E06C75 !important;
+    color: #fff !important;
+    border-radius: 6px;
+    padding: 2px 8px;
+}
+.session-ok {
+    background-color: #98C379 !important;
+    color: #fff !important;
+    border-radius: 6px;
+    padding: 2px 8px;
+}
+
+/* 버튼/입력창 테두리 */
+.stButton>button, .stTextInput>div>input, .stTextArea>div>textarea, .stSelectbox>div>div {
+    box-shadow: none !important;
+}
+
+/* 메모 영역 */
+.stTextArea>div>textarea {
+    min-height: 100px !important;
+}
+
+.stButton>button {
+    min-width: 0 !important;
+    padding: 2px 8px !important;
+    font-size: 1rem !important;
+}
+
+.attendance-row {
+    border-bottom: 1px solid #DBCBB6;
+    margin: 2px 0;
+}
+
+/* 사이드바 메뉴 개선 */
+section[data-testid="stSidebar"] {
+    background-color: #F2EFE7 !important;
+    border-right: 1px solid #DBCBB6 !important;
+}
+.stSidebarNav, .stRadio {
+    margin-top: 24px !important;
+}
+.stRadio > div {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.stRadio label {
+    background: #FCFAF5;
+    color: #5a4632;
+    border-radius: 12px;
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    border: 1.5px solid #DBCBB6;
+    margin-bottom: 0;
+    transition: background 0.2s, color 0.2s, border 0.2s;
+    cursor: pointer;
+}
+.stRadio label:hover {
+    background: #F8F5EE;
+    color: #5a4632;
+    border: 1.5px solid #5a4632;
+}
+.stRadio div[role="radiogroup"] > label[data-selected="true"],
+.stRadio label[data-selected="true"] {
+    background: #EDE6D6 !important;
+    color: #5a4632 !important;
+    border: 2px solid #5a4632 !important;
+    font-weight: 700;
+}
+.stSidebarNav .stMarkdown, .stSidebarNav .stInfo {
+    margin-top: 32px !important;
+} 

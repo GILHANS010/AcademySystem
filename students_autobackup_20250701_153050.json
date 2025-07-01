@@ -1,0 +1,24 @@
+[
+  {
+    "id": "2e107d56-65ec-4f14-aec5-f92a050fa2b0",
+    "name": "김길한",
+    "phone": "01099121935",
+    "registered_date": "2025-07-01",
+    "lessons": [
+      {
+        "subject": "가야금",
+        "remaining_sessions": 13,
+        "payment_history": [
+          {
+            "id": "94f841d5-5053-4828-ae74-d2c92a509226",
+            "date": "2025-07-02",
+            "amount": 200000,
+            "sessions_added": 13
+          }
+        ],
+        "attendance_history": []
+      }
+    ],
+    "memo": ""
+  }
+]
